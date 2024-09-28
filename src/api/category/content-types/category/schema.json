@@ -21,6 +21,9 @@
       "relation": "oneToMany",
       "target": "api::product.product",
       "mappedBy": "category"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
